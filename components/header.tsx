@@ -7,8 +7,8 @@ import { Navbar } from '@/components/navbar'
 import { MobileNav } from '@/components/MobileNav'
 
 export const Header = () => (
-  <header className="w-full h-36 fixed top-0 shadow-header px-4 pt-6 bg-white">
-    <div className="w-full max-w-7xl mx-auto flex flex-col items-center justify-center gap-3 sm:gap-4 md:gap-6">
+  <header className="w-full h-36 fixed top-0 shadow-header px-4 pt-4 sm:pt-6 bg-white">
+    <div className="w-full max-w-7xl mx-auto flex flex-col items-center justify-center gap-4 sm:gap-4 md:gap-6">
       <div className="w-full flex items-center justify-between">
         <Link href="/" className="overflow-hidden">
           <Image

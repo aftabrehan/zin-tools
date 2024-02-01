@@ -15,8 +15,8 @@ export const NavDropdown = ({
   position = 'center',
 }: navDropdownProps) => {
   const positionCls = {
-    left: 'left-0',
-    right: 'right-0',
+    left: '-left-2',
+    right: '-right-2',
     center: '',
   }[position]
 
