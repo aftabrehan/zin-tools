@@ -1,7 +1,11 @@
+import YoutubeIcon from '@/public/youtube.svg'
+import TwitterIcon from '@/public/twitter.svg'
+import FacebookIcon from '@/public/facebook.svg'
+
 export const FOLLOW_US_LINKS = [
-  { href: '/', alt: 'youtube icon', src: '/youtube.svg' },
-  { href: '/', alt: 'twitter icon', src: '/twitter.svg' },
-  { href: '/', alt: 'facebook icon', src: '/facebook.svg' },
+  { href: '/', Icon: YoutubeIcon },
+  { href: '/', Icon: TwitterIcon },
+  { href: '/', Icon: FacebookIcon },
 ]
 
 export const INTERNAL_LINKS = [

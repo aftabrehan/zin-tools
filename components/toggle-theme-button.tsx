@@ -29,7 +29,10 @@ export const ToggleThemeButton = ({ className }: toggleThemeButtonProps) => {
         variant="secondary"
         icon={resolvedTheme === 'dark' ? <SunIcon /> : <MoonIcon />}
         onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
-        className={clsx('w-12 h-12 rounded-full !px-1 bg-[#dedede]', className)}
+        className={clsx(
+          'w-12 h-12 rounded-full !px-1 !bg-[#dedede] dark:!bg-[#2e2e2e]',
+          className
+        )}
       />
     )
   )

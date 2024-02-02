@@ -9,7 +9,7 @@ import { MobileNav } from '@/components/mobile-nav'
 export const Header = () => (
   <header className="w-full h-36 fixed top-0 shadow-header px-4 sm:px-6 pt-4 sm:pt-6 bg-white z-10">
     <div className="w-full max-w-[1400px] mx-auto flex flex-col items-center justify-center gap-4 sm:gap-4 md:gap-6">
-      <div className="w-full flex items-center justify-between">
+      <div className="w-full flex items-center justify-between gap-2">
         <Link href="/" className="overflow-hidden">
           <Image
             src="/logo.svg"
