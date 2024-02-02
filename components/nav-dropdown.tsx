@@ -39,7 +39,7 @@ export const NavDropdown = ({
           <Link
             key={i}
             href={opLink}
-            className="w-full p-2 text-sm text-black dark:text-gray-100 hover:bg-zinc-100 dark:hover:bg-zinc-400/10 rounded-md transition-colors duration-300"
+            className="w-full px-2.5 py-2 text-sm text-black dark:text-gray-100 hover:bg-zinc-100 dark:hover:bg-zinc-400/10 rounded-md transition-colors duration-300"
           >
             {label}
           </Link>
