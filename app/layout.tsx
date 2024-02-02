@@ -1,7 +1,7 @@
 import { Inter } from 'next/font/google'
 import type { Metadata } from 'next'
 
-import { ThemeProvider } from '@/components/theme-provider'
+import { ThemeProvider } from '@/components/theme/theme-provider'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 

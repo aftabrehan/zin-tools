@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import { ToggleThemeButton } from '@/components/toggle-theme-button'
+import { ToggleThemeButton } from '@/components/theme/toggle-theme-button'
 
 import Logo from '@/public/logo.svg'
 
@@ -52,7 +52,7 @@ export const Footer = () => (
         </div>
       </div>
 
-      <div className="flex flex-wrap items-start gap-x-2 md:gap-x-4 gap-y-8 py-10 border-t border-neutral-200 dark:border-zinc-800">
+      <div className="flex flex-wrap items-start gap-x-2 gap-y-8 py-10 border-t border-neutral-200 dark:border-zinc-800">
         <Links title="Internal Links" links={INTERNAL_LINKS} />
         <Links title="External Links" links={EXTERNAL_LINKS} />
         <Links title="Internal Links" links={INTERNAL_LINKS} />
