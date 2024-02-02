@@ -23,7 +23,7 @@ export const SectionWrapper = ({
           label="All"
           variant="secondary"
           icon={<AngleRightIcon />}
-          className="hidden sm:flex"
+          className="hidden sm:flex h-9"
         />
       )}
     </div>

@@ -24,7 +24,7 @@ export const NavDropdown = ({
     <li className="group relative flex items-center justify-center">
       <Link
         href={link}
-        className="relative text-base sm:text-sm font-medium whitespace-nowrap px-3 py-3.5 after:absolute after:bottom-0 after:left-0 after:content-none::after after:w-full after:h-[2px] after:bg-primary after:hidden group-hover:after:block"
+        className="relative text-black text-base sm:text-sm font-medium whitespace-nowrap px-3 py-3.5 after:absolute after:bottom-0 after:left-0 after:content-none::after after:w-full after:h-[2px] after:bg-primary after:hidden group-hover:after:block"
       >
         {title}
       </Link>

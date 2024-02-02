@@ -25,9 +25,9 @@ export const Button = ({
   ...props
 }: buttonProps) => {
   const variantCls = {
-    primary: 'text-white bg-primary sm:hover:opacity-75',
-    secondary: 'text-black bg-zinc-100 sm:hover:opacity-75',
-    ghost: 'text-black hover:bg-zinc-100 sm:hover:opacity-75',
+    primary: 'text-white bg-primary xs:hover:opacity-75',
+    secondary: 'text-black bg-zinc-100 xs:hover:opacity-75',
+    ghost: 'text-black hover:bg-zinc-100 xs:hover:opacity-75',
     outline:
       'text-black bg-white border-2 border-zinc-400 disabled:hover:border-zinc-400 sm:hover:border-primary',
   }[variant]
