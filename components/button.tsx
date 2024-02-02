@@ -40,7 +40,7 @@ export const Button = ({
       onClick={onClick}
       disabled={disabled}
       className={clsx(
-        'h-12 px-5 flex items-center justify-center gap-2 text-base font-medium text-nowrap outline-none rounded-full transition-all duration-200 disabled:opacity-50',
+        'h-12 px-5 flex items-center justify-center gap-2 text-base font-medium text-nowrap outline-none rounded-full transition-all duration-300 disabled:opacity-50',
         !disabled && 'group',
         variantCls,
         className
