@@ -19,7 +19,7 @@ export const MobileNav = () => {
       <Button
         icon={isOpen ? <CrossIcon /> : <HamBurgerIcon />}
         onClick={() => setIsOpen(!isOpen)}
-        className="w-12 h-12 rounded-md px-1"
+        className="w-12 h-12 rounded-md !px-1"
         style={{ background: isOpen ? '#000' : '#f4f4f5' }}
       />
 
