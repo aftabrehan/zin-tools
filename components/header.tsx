@@ -1,23 +1,18 @@
 import Link from 'next/link'
-import Image from 'next/image'
 
 import { Searchbar } from '@/components/search-bar'
 import { Button } from '@/components/button'
 import { Navbar } from '@/components/navbar'
 import { MobileNav } from '@/components/mobile-nav'
 
+import Logo from '@/public/logo.svg'
+
 export const Header = () => (
-  <header className="w-full h-36 fixed top-0 shadow-header px-4 sm:px-6 pt-4 sm:pt-6 bg-white z-10">
+  <header className="w-full h-[136px] md:h-36 fixed top-0 shadow-header dark:shadow-header-dark px-4 lg:px-6 pt-4 sm:pt-6 bg-white dark:bg-zinc-900 z-10">
     <div className="w-full max-w-[1400px] mx-auto flex flex-col items-center justify-center gap-4 sm:gap-4 md:gap-6">
       <div className="w-full flex items-center justify-between gap-2">
-        <Link href="/" className="overflow-hidden">
-          <Image
-            src="/logo.svg"
-            alt="ZinTools Logo"
-            width={138}
-            height={38}
-            className="w-[120px] sm:w-[130px] md:w-[138px] h-auto"
-          />
+        <Link href="/">
+          <Logo className="w-[120px] sm:w-[130px] md:w-[138px] h-[38px] fill-black dark:fill-white" />
         </Link>
 
         <Searchbar className="hidden sm:flex" />
