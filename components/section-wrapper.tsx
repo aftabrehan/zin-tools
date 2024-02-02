@@ -15,7 +15,7 @@ export const SectionWrapper = ({
   children,
   childrenClass,
 }: sectionWraperProps) => (
-  <section className="w-full flex flex-col px-0 xs:px-2 sm:px-4 md:px-6 py-0 sm:py-2 md:py-4 bg-white dark:bg-midnight-slate rounded-3xl">
+  <section className="w-full flex flex-col px-0 xs:px-2 sm:px-4 md:px-6 py-0 sm:py-2 md:py-4 bg-white dark:bg-midnight-slate rounded-xl xs:rounded-2xl sm:rounded-3xl">
     <div className="flex items-center justify-between px-4 py-4 sm:py-6 gap-2">
       <h1
         className={'text-black dark:text-white text-xl sm:text-3xl font-bold'}

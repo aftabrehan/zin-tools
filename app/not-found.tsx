@@ -10,7 +10,7 @@ const NotFoundPage = () => {
   const router = useRouter()
 
   return (
-    <div className="w-full flex flex-col items-center justify-center gap-6 p-10 bg-white dark:bg-midnight-slate rounded-3xl">
+    <div className="w-full flex flex-col items-center justify-center gap-6 p-10 bg-white dark:bg-midnight-slate rounded-xl xs:rounded-2xl sm:rounded-3xl">
       <NotFoundImage className="w-full max-w-[342px] h-auto" />
       <p className="text-black dark:text-white text-lg font-medium">
         Page Not Found!
