@@ -16,7 +16,6 @@ interface toggleThemeButtonProps {
 export const ToggleThemeButton = ({ className }: toggleThemeButtonProps) => {
   const [isMounted, setIsMounted] = useState(false)
   const { resolvedTheme, setTheme } = useTheme()
-  console.log(resolvedTheme, 'resolvedTheme')
 
   useEffect(() => {
     setIsMounted(true)
