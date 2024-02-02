@@ -1,3 +1,5 @@
+import { CSSProperties } from 'react'
+
 import clsx from 'clsx'
 
 interface buttonProps {
@@ -6,6 +8,7 @@ interface buttonProps {
   variant?: 'primary' | 'secondary' | 'ghost' | 'outline'
   icon?: React.ReactNode
   className?: string
+  style?: CSSProperties
   disabled?: boolean
   ref?: React.ForwardedRef<HTMLButtonElement>
 }
@@ -16,14 +19,15 @@ export const Button = ({
   variant = 'primary',
   icon,
   className,
+  style,
   disabled,
   ref,
   ...props
 }: buttonProps) => {
   const variantCls = {
-    primary: 'text-white bg-primary hover:opacity-75',
-    secondary: 'text-black bg-zinc-100 hover:opacity-75',
-    ghost: 'text-black hover:bg-zinc-100 hover:opacity-75',
+    primary: 'text-white bg-primary sm:hover:opacity-75',
+    secondary: 'text-black bg-zinc-100 sm:hover:opacity-75',
+    ghost: 'text-black hover:bg-zinc-100 sm:hover:opacity-75',
     outline:
       'text-black bg-white border-2 border-zinc-400 disabled:hover:border-zinc-400 sm:hover:border-primary',
   }[variant]
@@ -39,6 +43,7 @@ export const Button = ({
         variantCls,
         className
       )}
+      style={style}
       {...props}
     >
       {label}

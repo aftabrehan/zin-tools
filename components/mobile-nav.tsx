@@ -1,10 +1,13 @@
 'use client'
 
 import { useState } from 'react'
-import Image from 'next/image'
 
+import { Button } from '@/components/button'
 import { Modal } from '@/components//modal/modal'
 import { NavDropdown } from '@/components/nav-dropdown'
+
+import CrossIcon from '@/public/cross.svg'
+import HamBurgerIcon from '@/public/hamburger.svg'
 
 import { MOBILE_NAV_ITEMS } from '@/constants/nav-items'
 
@@ -13,18 +16,12 @@ export const MobileNav = () => {
 
   return (
     <>
-      <button
-        className="w-12 h-12 flex items-center justify-center rounded-md"
+      <Button
+        icon={isOpen ? <CrossIcon /> : <HamBurgerIcon />}
         onClick={() => setIsOpen(!isOpen)}
+        className="w-12 h-12 rounded-md px-1"
         style={{ background: isOpen ? '#000' : '#f4f4f5' }}
-      >
-        <Image
-          alt=""
-          src={isOpen ? '/cross.svg' : '/hamburger.svg'}
-          width={24}
-          height={24}
-        />
-      </button>
+      />
 
       <Modal isOpen={isOpen} close={() => setIsOpen(false)}>
         <div className="w-full h-[calc(100vh-144px)] mt-36 flex sm:hidden bg-white pointer-events-auto border-t border-zinc-100 border animation-slide-from-right overflow-auto">
