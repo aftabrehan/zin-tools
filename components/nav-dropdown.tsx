@@ -31,7 +31,7 @@ export const NavDropdown = ({
 
       <div
         className={clsx(
-          'hidden sm:group-hover:flex absolute top-12 flex-col min-w-[220px] gap-2 p-4 bg-white dark:bg-[#0f1214] rounded-b-md shadow-md dark:shadow-none border border-zinc-100 dark:border-zinc-400/20',
+          'hidden sm:group-hover:flex absolute top-12 flex-col min-w-[220px] gap-2 p-4 bg-white dark:bg-midnight-slate rounded-b-md shadow-md dark:shadow-none border border-zinc-100 dark:border-zinc-400/20',
           positionCls
         )}
       >
