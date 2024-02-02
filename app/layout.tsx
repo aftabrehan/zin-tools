@@ -29,7 +29,7 @@ export default function RootLayout({
         </main>
         <div
           id="modal"
-          className="flex items-center justify-center w-screen h-screen fixed top-0 left-[50%] translate-x-[-50%] z-1000 overflow-y-hidden pointer-events-none"
+          className="flex items-center justify-center w-screen h-screen fixed top-0 left-[50%] translate-x-[-50%] z-10 overflow-y-hidden pointer-events-none"
         />
         <Footer />
       </body>
