@@ -22,8 +22,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        <main className="w-full min-h-[calc(100vh-144px)] mt-36">
-          <div className="w-full max-w-7xl mx-auto h-full">{children}</div>
+        <main className="w-full min-h-[calc(100vh-144px)] mt-36 bg-slate-50">
+          <div className="w-full max-w-[1432px] sm:max-w-[1464px] mx-auto h-full px-4 sm:px-8 py-8 sm:py-16">
+            {children}
+          </div>
         </main>
         <div
           id="modal"

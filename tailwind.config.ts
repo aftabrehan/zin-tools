@@ -13,6 +13,10 @@ const config: Config = {
       },
       boxShadow: {
         header: '0px 4px 12px 0px rgba(189, 189, 189, 0.25)',
+        card: '0px 8px 16px 0px rgba(0, 0, 0, 0.10)',
+      },
+      screens: {
+        xs: '478px',
       },
     },
   },
