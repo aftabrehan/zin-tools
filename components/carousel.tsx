@@ -205,7 +205,7 @@ const CarouselPrevious = React.forwardRef<
       className,
       variant = 'outline',
       icon = (
-        <ArrowLeftIcon className="stroke-zinc-400 sm:group-hover:stroke-primary" />
+        <ArrowLeftIcon className="stroke-zinc-400 sm:group-hover:stroke-primary dark:sm:group-hover:stroke-white" />
       ),
       ...props
     },
@@ -243,7 +243,7 @@ const CarouselNext = React.forwardRef<
       className,
       variant = 'outline',
       icon = (
-        <ArrowRightIcon className="stroke-zinc-400 sm:group-hover:stroke-primary" />
+        <ArrowRightIcon className="stroke-zinc-400 sm:group-hover:stroke-primary dark:sm:group-hover:stroke-white" />
       ),
       ...props
     },
