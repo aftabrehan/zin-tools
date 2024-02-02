@@ -31,7 +31,7 @@ export const Button = ({
     ghost:
       'text-black dark:text-gray-200 hover:bg-zinc-100 dark:hover:bg-white/10 xs:hover:opacity-75',
     outline:
-      'text-black dark:text-white bg-white dark:bg-neutral-800 border-2 border-zinc-400 disabled:hover:border-zinc-400 sm:hover:border-primary dark:sm:hover:border-white',
+      'text-black dark:text-white bg-white dark:bg-midnight-slate border-2 border-zinc-400 disabled:hover:border-zinc-400 sm:hover:border-primary dark:sm:hover:border-white',
   }[variant]
 
   return (
