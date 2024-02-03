@@ -2,7 +2,7 @@ import { CSSProperties } from 'react'
 
 import clsx from 'clsx'
 
-interface buttonProps {
+interface ButtonProps {
   label?: string
   onClick?: () => void
   variant?: 'primary' | 'secondary' | 'ghost' | 'outline'
@@ -23,7 +23,7 @@ export const Button = ({
   disabled,
   ref,
   ...props
-}: buttonProps) => {
+}: ButtonProps) => {
   const variantCls = {
     primary: 'text-white bg-primary xs:hover:opacity-75',
     secondary:

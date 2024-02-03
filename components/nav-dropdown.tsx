@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import clsx from 'clsx'
 
-interface navDropdownProps {
+interface NavDropdownProps {
   title: string
   link: string
   options: Array<{ label: string; link: string }>
@@ -13,7 +13,7 @@ export const NavDropdown = ({
   link,
   options,
   position = 'center',
-}: navDropdownProps) => {
+}: NavDropdownProps) => {
   const positionCls = {
     left: '-left-2',
     right: '-right-2',

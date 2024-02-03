@@ -9,11 +9,11 @@ import { Button } from '@/components/button'
 import MoonIcon from '@/public/moon.svg'
 import SunIcon from '@/public/sun.svg'
 
-interface toggleThemeButtonProps {
+interface ToggleThemeButtonProps {
   className?: string
 }
 
-export const ToggleThemeButton = ({ className }: toggleThemeButtonProps) => {
+export const ToggleThemeButton = ({ className }: ToggleThemeButtonProps) => {
   const [isMounted, setIsMounted] = useState(false)
   const { resolvedTheme, setTheme } = useTheme()
 

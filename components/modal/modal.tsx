@@ -5,7 +5,7 @@ import { ModalPortal } from '@/components/modal/modal-portal'
 
 import { useClickOutside } from '@/hooks/useClickOutside'
 
-interface modalProps {
+interface ModalProps {
   isOpen: boolean
   close: () => void
   children: React.ReactNode
@@ -19,7 +19,7 @@ export const Modal = ({
   children,
   closeOnClickAway = false,
   className,
-}: modalProps) => {
+}: ModalProps) => {
   const contentRef = useRef(null)
 
   useClickOutside({

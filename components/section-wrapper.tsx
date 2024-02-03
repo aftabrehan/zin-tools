@@ -2,7 +2,7 @@ import { Button } from '@/components/button'
 
 import AngleRightIcon from '@/public/angle-right.svg'
 
-interface sectionWraperProps {
+interface SectionWraperProps {
   title: string
   showAllButton?: boolean
   children: React.ReactNode
@@ -14,7 +14,7 @@ export const SectionWrapper = ({
   showAllButton,
   children,
   childrenClass,
-}: sectionWraperProps) => (
+}: SectionWraperProps) => (
   <section className="w-full flex flex-col px-0 xs:px-2 sm:px-4 md:px-6 py-0 sm:py-2 md:py-4 bg-white dark:bg-midnight-slate rounded-xl xs:rounded-2xl sm:rounded-3xl">
     <div className="flex items-center justify-between px-4 py-4 sm:py-6 gap-2">
       <h1

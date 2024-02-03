@@ -1,11 +1,11 @@
 import { useEffect } from 'react'
 
-interface funcProps {
+interface UseClickOutsideProps {
   onClick: () => void
   ref: { current: HTMLDivElement } | { current: null }
 }
 
-export const useClickOutside = ({ onClick, ref }: funcProps) => {
+export const useClickOutside = ({ onClick, ref }: UseClickOutsideProps) => {
   useEffect(() => {
     const handleClickOutside = (e: any) =>
       ref.current && !ref.current.contains(e.target) && onClick()

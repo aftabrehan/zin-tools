@@ -11,12 +11,12 @@ import {
   OTHER_LINKS,
 } from '@/constants/footer-links'
 
-interface linksProps {
+interface LinksProps {
   title: string
   links: Array<{ href: string; label: string }>
 }
 
-const Links = ({ title, links }: linksProps) => (
+const Links = ({ title, links }: LinksProps) => (
   <div className="basis-[100%] md:basis-[calc(33%-8px)] lg:basis-[calc(25%-8px)] xl:basis-[calc(20%-8px)]">
     <h3 className="pb-6 text-base font-semibold text-black dark:text-gray-200">
       {title}

@@ -4,11 +4,11 @@ import { NavDropdown } from '@/components/nav-dropdown'
 
 import { ALL_NAV_ITEMS, LESS_NAV_ITEMS } from '@/constants/nav-items'
 
-interface navbarProps {
+interface NavbarProps {
   className?: string
 }
 
-export const Navbar = ({ className }: navbarProps) => (
+export const Navbar = ({ className }: NavbarProps) => (
   <nav className={clsx('w-full max-w-6xl', className)}>
     <ul className="w-full hidden lg:flex items-center justify-between gap-1">
       {ALL_NAV_ITEMS.map((navItem, i) => (

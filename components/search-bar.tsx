@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import clsx from 'clsx'
 
-interface searchbarProps {
+interface SearchbarProps {
   className?: string
 }
 
-export const Searchbar = ({ className }: searchbarProps) => (
+export const Searchbar = ({ className }: SearchbarProps) => (
   <div
     className={clsx(
       'flex-1 sm:max-w-[280px] md:max-w-[400px] lg:max-w-[500px] flex items-center justify-between gap-x-4 md:gap-x-6 px-4 sm:px-6 py-1.5 bg-zinc-100 dark:bg-zinc-800 rounded-3xl',
