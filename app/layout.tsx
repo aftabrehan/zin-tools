@@ -29,7 +29,7 @@ export default function RootLayout({
           <Header />
 
           <main className="w-full mt-36 bg-slate-50 dark:bg-[#080f15]">
-            <div className="w-full max-w-[1432px] sm:max-w-[1464px] mx-auto h-full px-4 sm:px-8 py-8 sm:py-16">
+            <div className="w-full max-w-[1432px] sm:max-w-[1464px] mx-auto h-full px-4 sm:px-8 py-6 sm:py-8 md:py-8 lg:py-16">
               {children}
             </div>
           </main>
