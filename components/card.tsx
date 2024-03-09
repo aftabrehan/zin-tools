@@ -11,6 +11,7 @@ interface CardProps {
 export const Card = ({ link, imageUrl, title, description }: CardProps) => (
   <Link
     href={link}
+    scroll={false}
     className="w-full sm:max-w-[300px] h-[156px] xs:h-[168px] sm:h-[200px] flex flex-col justify-start items-start gap-3 sm:gap-4 p-4 sm:p-6 rounded-xl dark:hover:bg-zinc-600/5 border border-gray-200 dark:border-opacity-15 dark:hover:border-opacity-30 hover:shadow-card outline-none transition-all duration-300"
   >
     <Image

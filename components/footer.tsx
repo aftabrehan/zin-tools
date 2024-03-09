@@ -26,6 +26,7 @@ const Links = ({ title, links }: LinksProps) => (
         <li key={i}>
           <Link
             href={href}
+            scroll={false}
             className="block py-2 leading-6 text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-gray-200"
           >
             {label}
@@ -45,7 +46,7 @@ export const Footer = () => (
         </h4>
         <div className="flex items-center gap-8">
           {FOLLOW_US_LINKS.map(({ href, Icon }, i) => (
-            <Link key={i} href={href} className="group">
+            <Link key={i} href={href} scroll={false} className="group">
               <Icon className="fill-neutral-600 group-hover:fill-black dark:fill-neutral-400 dark:hover:fill-white" />
             </Link>
           ))}
@@ -62,7 +63,7 @@ export const Footer = () => (
 
       <div className="flex flex-wrap items-center gap-6 pt-6 pb-10 border-t border-neutral-200 dark:border-zinc-800 md:pb-12 md:pt-8 md:gap-8 border-t-clr-border">
         <div className="flex items-center justify-between grow">
-          <Link href="/">
+          <Link href="/" scroll={false}>
             <Logo className="w-[120px] h-[34px] fill-black dark:fill-white" />
           </Link>
 
@@ -74,6 +75,7 @@ export const Footer = () => (
             <li key={i}>
               <Link
                 href={href}
+                scroll={false}
                 className="text-sm text-neutral-600 hover:text-black dark:text-neutral-400 dark:hover:text-gray-200 hover:underline whitespace-nowrap"
               >
                 {label}
