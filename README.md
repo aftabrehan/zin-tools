@@ -1,6 +1,11 @@
 # ZinTools
 
-Built using Next.js and Tailwind CSS.
+Presenting ZinTools, a sleek website landing page dedicated to showcasing products. Crafted with the latest technologies like Next.js 14, TypeScript, and Tailwind CSS, it offers a clean and mobile-friendly design. With both dark and light modes available, it exudes elegance. Your feedback is valuable, and the project's source code is open for review and use on GitHub.
+
+<a href="https://aftabrehan.com/portfolio/product-based-website"><img src="https://github.com/aftabrehan/zin-tools/assets/93012310/ad2cc38f-408b-41ba-9c25-e00af3725482" alt="project-thumbnail"/></a>
+
+| [View Project 🔥](https://aftabrehan.com/portfolio/product-based-website) | [Live Preview 🚀](https://zin-tools.vercel.app) |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 
 ## Getting Started
 
